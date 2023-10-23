@@ -1,6 +1,8 @@
 
 package actividadm1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Nico Morales
@@ -12,12 +14,11 @@ public class ActividadM1 {
      */
     public static void main(String[] args) {
         
-//        se inizialisan dos variables 
-//        con los nuemeros a sumar
+//        se utiliza la libreria JoptionPanel para el ingreso de los numeros
    
-        int primerNumero = 1;
-        int segundoNumero = 12;
-        
+        int primerNumero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el primer numero a sumar:"));
+        int segundoNumero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo numero a sumar:"));
+
 //        Los valores sumados se guardfan en
 //        una variable
                 
